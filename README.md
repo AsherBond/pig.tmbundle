@@ -1,7 +1,7 @@
 # Mortardata - Pig TextMate bundle 
 
 ## Overview
-This TextMate bundle contains the syntax highlighting and code snippets for Pig. This bundle is based upon the original work done by [Kevin Weil](https://github.com/kevinweil/pig.tmbundle).
+This TextMate bundle contains the syntax highlighting and code snippets for Pig. This bundle is based on the original work done by [Kevin Weil](https://github.com/kevinweil/pig.tmbundle).
 
 ## Installation
 
