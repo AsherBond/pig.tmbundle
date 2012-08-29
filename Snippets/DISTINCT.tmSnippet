@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:output} = DISTINCT ${2:input};
+</string>
+	<key>name</key>
+	<string>DISTINCT</string>
+	<key>tabTrigger</key>
+	<string>distinct</string>
+	<key>uuid</key>
+	<string>D9D03FDF-D9F8-4BDD-AF5C-67BE3F057C7A</string>
+</dict>
+</plist>

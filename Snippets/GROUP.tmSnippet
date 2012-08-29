@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:output} = GROUP ${2:input} BY ${3:field};
+</string>
+	<key>name</key>
+	<string>GROUP</string>
+	<key>tabTrigger</key>
+	<string>group</string>
+	<key>uuid</key>
+	<string>2A3A64FB-FAC1-4302-B5EE-4E7D3C6C3F01</string>
+</dict>
+</plist>

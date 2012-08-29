@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:output} = FILTER ${2:input} BY ${3:expression};
+</string>
+	<key>name</key>
+	<string>FILTER</string>
+	<key>tabTrigger</key>
+	<string>filter</string>
+	<key>uuid</key>
+	<string>118FFBD3-2C26-4FDE-9D2C-36ED9F73F86C</string>
+</dict>
+</plist>

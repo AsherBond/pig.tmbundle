@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:output} = COGROUP ${2:input_0} BY ${3:field};
+</string>
+	<key>name</key>
+	<string>COGROUP</string>
+	<key>tabTrigger</key>
+	<string>cogroup</string>
+	<key>uuid</key>
+	<string>3D26961E-E3D2-451A-8455-86AC3B5D8ED2</string>
+</dict>
+</plist>

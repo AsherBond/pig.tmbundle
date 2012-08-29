@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>REGISTER s3n://${1:code-bucket/python-script-file.py} USING streaming_python;
+</string>
+	<key>name</key>
+	<string>REGISTER</string>
+	<key>tabTrigger</key>
+	<string>reg</string>
+	<key>uuid</key>
+	<string>476D468A-6477-432C-82EC-A501E3DD8F67</string>
+</dict>
+</plist>

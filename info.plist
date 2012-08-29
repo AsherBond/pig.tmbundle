@@ -4,6 +4,8 @@
 <dict>
 	<key>author</key>
 	<string>Kevin Weil</string>
+	<key>contributors</key>
+	<string>Thomas Millar</string>
 	<key>description</key>
 	<string>Minimal syntax highlighting for Pig.</string>
 	<key>name</key>

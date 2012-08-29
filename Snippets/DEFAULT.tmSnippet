@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>%default ${1:parameter} "${2:default_parameter_value}";
+</string>
+	<key>name</key>
+	<string>DEFAULT</string>
+	<key>tabTrigger</key>
+	<string>def</string>
+	<key>uuid</key>
+	<string>6FF9AE6A-B78A-4A61-ABB6-1ECE0178567A</string>
+</dict>
+</plist>

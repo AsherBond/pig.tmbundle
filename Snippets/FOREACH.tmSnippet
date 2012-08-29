@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:output} = FOREACH ${2:input} GENERATE ${3:expression(input_field)} AS ${4:output_field};
+</string>
+	<key>name</key>
+	<string>FOREACH</string>
+	<key>tabTrigger</key>
+	<string>foreach</string>
+	<key>uuid</key>
+	<string>0F7CB33D-4899-4B4E-ADE3-69EA6097E237</string>
+</dict>
+</plist>

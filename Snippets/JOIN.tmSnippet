@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:output} = JOIN ${2:input_1} BY ${3:field}, ${4:input_2} BY ${5:field};
+</string>
+	<key>name</key>
+	<string>JOIN</string>
+	<key>tabTrigger</key>
+	<string>join</string>
+	<key>uuid</key>
+	<string>6BC6FFE3-9DCD-44CC-832D-4FEA8B32C0B7</string>
+</dict>
+</plist>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:output} = UNION ${2:input_1}, ${3:input_2};
+</string>
+	<key>name</key>
+	<string>UNION</string>
+	<key>tabTrigger</key>
+	<string>union</string>
+	<key>uuid</key>
+	<string>8231A1A1-0B4F-4AD2-BB94-B20747E55AA1</string>
+</dict>
+</plist>

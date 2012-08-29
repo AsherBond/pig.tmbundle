@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:output} = ORDER ${2:input} BY ${3:field} ASC;
+</string>
+	<key>name</key>
+	<string>ORDER BY</string>
+	<key>tabTrigger</key>
+	<string>order</string>
+	<key>uuid</key>
+	<string>E92F7DFA-FAE5-4061-AF1A-122F8728F82D</string>
+</dict>
+</plist>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>STORE ${1:input} INTO 's3n://${2:my-output-bucket/my-output-folder}' USING PigStorage('\t');
+</string>
+	<key>name</key>
+	<string>STORE</string>
+	<key>tabTrigger</key>
+	<string>store</string>
+	<key>uuid</key>
+	<string>6A589F8B-D4B8-4A3A-BEDF-A5AA276B81B1</string>
+</dict>
+</plist>

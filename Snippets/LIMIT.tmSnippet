@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:output} = LIMIT ${2:input} ${3:num_rows_to_return};
+</string>
+	<key>name</key>
+	<string>LIMIT</string>
+	<key>tabTrigger</key>
+	<string>limit</string>
+	<key>uuid</key>
+	<string>4F1D64D5-A820-4D36-AB08-361B082CA757</string>
+</dict>
+</plist>
