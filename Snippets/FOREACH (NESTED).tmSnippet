@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:output} = FOREACH ${2:input} {
+     output_1 = FILTER input_inner_bag BY expression;
+     GENERATE ${3:expression(output_1.field)} AS ${4:output_field_1}
+};
+</string>
+	<key>name</key>
+	<string>FOREACH (NESTED)</string>
+	<key>tabTrigger</key>
+	<string>foreachn</string>
+	<key>uuid</key>
+	<string>9D8B04FB-665F-4F45-8D52-4BB1E306B02F</string>
+</dict>
+</plist>
