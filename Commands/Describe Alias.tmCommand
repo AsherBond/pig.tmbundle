@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>saveActiveFile</string>
+	<key>command</key>
+	<string>#!/bin/bash
+
+# If there is no alias selected, do nothing
+if [ "${TM_SELECTED_TEXT:-$TM_CURRENT_WORD}" -eq "" ]; then
+exit 0
+fi
+
+rm -f /tmp/hpipe
+mkfifo /tmp/hpipe
+
+CocoaDialog progressbar --indeterminate --text "Calculating schema for ${TM_SELECTED_TEXT:-$TM_CURRENT_WORD} and ancestors..." --title "My Program" &lt; /tmp/hpipe &amp;
+
+exec 3&lt;&gt; /tmp/hpipe
+echo -n . &gt;&amp;3
+
+pushd ${TM_PROJECT_DIRECTORY}
+rvm use 1.8.7
+rvm gemset use mortar
+
+echo `which textmate_ruby`
+script=`basename ${TM_FILEPATH} | sed 's/\..\{3\}$//'`
+mortar describe ${script} ${TM_SELECTED_TEXT:-$TM_CURRENT_WORD}
+popd
+
+exec 3&gt;&amp;-
+
+wait
+rm -f /tmp/hpipe
+exit 0</string>
+	<key>fallbackInput</key>
+	<string>none</string>
+	<key>input</key>
+	<string>selection</string>
+	<key>keyEquivalent</key>
+	<string>@d</string>
+	<key>name</key>
+	<string>Describe Alias</string>
+	<key>output</key>
+	<string>discard</string>
+	<key>uuid</key>
+	<string>A6A1CC7D-C8F6-48FF-9A70-401948A0DE05</string>
+</dict>
+</plist>
