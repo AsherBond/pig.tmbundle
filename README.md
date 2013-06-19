@@ -16,4 +16,3 @@ To install this bundle, paste the following into the terminal:
     osascript -e 'tell app "TextMate" to reload bundles'
 
 Enjoy
-
